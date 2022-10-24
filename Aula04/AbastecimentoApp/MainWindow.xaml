@@ -1,0 +1,23 @@
+﻿<Window x:Class="AbastecimentoApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AbastecimentoApp"
+        mc:Ignorable="d"
+        Title="Abastecimento" Height="250" Width="250">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" Text="Km rodados" TextWrapping="Wrap" VerticalAlignment="Top" RenderTransformOrigin="0.298,-0.541"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,34,0,0" Text="Valor Pago R$" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,55,0,0" Text="Valor Litro R$" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,171,0,0" Text="Km / litro" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,150,0,0" Text="R$ / Km" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBox x:Name="txt1" HorizontalAlignment="Left" Margin="100,10,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="90"/>
+        <TextBox x:Name="txt2" HorizontalAlignment="Left" Margin="100,33,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="90"/>
+        <TextBox x:Name="txt3" HorizontalAlignment="Left" Margin="100,56,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="90"/>
+        <TextBox x:Name="txt4" HorizontalAlignment="Left" Margin="100,150,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="90"/>
+        <TextBox x:Name="txt5" HorizontalAlignment="Left" Margin="100,173,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="90"/>
+        <Button Content="Calcular" HorizontalAlignment="Center" VerticalAlignment="Center" Width="180" Click="Button_Click_1"/>
+
+    </Grid>
+</Window>
