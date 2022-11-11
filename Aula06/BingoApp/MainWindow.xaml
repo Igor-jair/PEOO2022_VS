@@ -1,0 +1,39 @@
+﻿<Window x:Class="BingoApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BingoApp"
+        mc:Ignorable="d"
+        Title="Bingo" Height="350" Width="400">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="2*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*" />
+            <ColumnDefinition Width="1*" />
+        </Grid.ColumnDefinitions>
+        <GroupBox Header="Número de Bolas" Margin="4" Grid.ColumnSpan="2">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="4*" />
+                    <ColumnDefinition Width="3*" />
+                    <ColumnDefinition Width="3*" />
+                </Grid.ColumnDefinitions>
+                <TextBox Name="txtNumBolas" IsReadOnly="True" Margin="4" Grid.Column="1" Text="50" VerticalAlignment="Center" />
+                <Slider Name="slider" Margin="4" VerticalAlignment="Center" Minimum="10" Maximum="100" Value="50"
+                        ValueChanged="Slider_ValueChanged" TickFrequency="1" IsSnapToTickEnabled="True" />
+                <Button Name="btnIniciar" Margin="4" Grid.Column="2" Content="Iniciar" Click="Button_Click" />
+            </Grid>
+        </GroupBox>
+        <Button Name="btnSortear" Content="Sortear" Grid.Row="1" Margin="4" Click="Button_Click_1" IsEnabled="False" />
+        <TextBox Name="txtNum" IsReadOnly="True" Margin="4" Text="35" Grid.Row="1" Grid.Column="1" FontSize="72" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" />
+        <GroupBox Header="Sorteados" Margin="4" Grid.Row="2" Grid.ColumnSpan="2">
+            <TextBox Name="txtSorteados" IsReadOnly="True" Text="1 - 2 - 3 - 4" TextWrapping="Wrap" />
+        </GroupBox>
+        <!-- Comentário -->
+    </Grid>
+</Window>
