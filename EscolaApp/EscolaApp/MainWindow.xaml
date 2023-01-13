@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:EscolaApp"
         mc:Ignorable="d"
-        Title="MainWindow" Height="200" Width="300">
+        Title="Escola" Height="200" Width="300">
     <Grid>
         <Button Click="Turma_click" Content="Cadastrar Turma" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
         <Button Click="Aluno_click" Content="Cadastrar Aluno" HorizontalAlignment="Left" Margin="10,35,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.143,-0.332"/>
