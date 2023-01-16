@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET5_0;NETCOREAPP
 C:\Users\20211011110008\Source\Repos\PEOO_VS\EscolaApp\EscolaApp\App.xaml
-51111230788
+8-167433863
 
-13318024001
+181667507096
 193-1891726104
-AlunoWindow.xaml;DiarioWindow.xaml;MainWindow.xaml;MatriculaWindow.xaml;TurmaWindow.xaml;
+AlunoWindow.xaml;Cad_Prof_TurmaWindow.xaml;DiarioWindow.xaml;List_Turma_ProfWindow.xaml;MainWindow.xaml;MatriculaWindow.xaml;ProfessorWindow.xaml;TurmaWindow.xaml;
 
-False
+True
 

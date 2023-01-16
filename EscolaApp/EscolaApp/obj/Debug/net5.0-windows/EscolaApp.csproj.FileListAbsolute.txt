@@ -28,3 +28,6 @@ C:\Users\20211011110008\Source\Repos\PEOO_VS\EscolaApp\EscolaApp\obj\Debug\net5.
 C:\Users\20211011110008\Source\Repos\PEOO_VS\EscolaApp\EscolaApp\obj\Debug\net5.0-windows\EscolaApp.pdb
 C:\Users\20211011110008\Source\Repos\PEOO_VS\EscolaApp\EscolaApp\obj\Debug\net5.0-windows\EscolaApp.genruntimeconfig.cache
 C:\Users\20211011110008\Source\Repos\PEOO_VS\EscolaApp\EscolaApp\obj\Debug\net5.0-windows\EscolaApp.csproj.AssemblyReference.cache
+C:\Users\20211011110008\Source\Repos\PEOO_VS\EscolaApp\EscolaApp\obj\Debug\net5.0-windows\Cad_Prof_TurmaWindow.g.cs
+C:\Users\20211011110008\Source\Repos\PEOO_VS\EscolaApp\EscolaApp\obj\Debug\net5.0-windows\List_Turma_ProfWindow.g.cs
+C:\Users\20211011110008\Source\Repos\PEOO_VS\EscolaApp\EscolaApp\obj\Debug\net5.0-windows\ProfessorWindow.g.cs
